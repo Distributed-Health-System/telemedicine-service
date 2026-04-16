@@ -1,0 +1,39 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Environment & secrets — inject at runtime via env_file or K8s Secrets
+.env
+.env.*
+!.env.example
+
+# Tests
+test
+coverage
+.nyc_output
+
+# Tooling & IDE
+.git
+.gitignore
+.dockerignore
+.vscode
+.idea
+.github
+
+
+# Logs & OS
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Dev-only config
+.prettierrc
+eslint.config.mjs
+nest-cli.json
+
+# Docs
+README.md
+*.md
